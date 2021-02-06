@@ -63,7 +63,7 @@ header .texts{
     padding: .5rem 0;
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
-    transition: 1s ease-out;
+    transition: 1s ease-in-out;
     
     
 }
@@ -101,11 +101,15 @@ nav .logo{
         width: 100%;
         flex-direction: column;
         align-items: center;
-        transition: all 1s ease;
+        transition: all 0.7s ease;
         background: #36D1DC;  /* fallback for old browsers */
         background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+    }
+
+    header .texts{
+        margin-top: 30rem;
     }
 
     .links a{
